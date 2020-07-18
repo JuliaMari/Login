@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org"></html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link style="color: black;" rel= "stylesheet" href="style.css">
+    <title>O</title>
+     
+</head>
+
+<body>   
+    <div>
+        <div class="row">
+            <h1>Primeiras Impressões</h1>
+        </div>
+        <div class="row">
+            <p>Por muitas vezes apresentações são consideradas difíceis ou até maçantes, pois afinal, quem somos nós e o que nos define?
+            </p>
+            <p>Por enquanto vamos ficar com o básico: Me chamo Júlia Maria, tenho 16 anos e moro em Brasília (mas juro que não fui eu) - um clássico.</p>
+            <p> Definições pessoais talvez sejam complexas, mas e se for como naquele ditado: uma foto vale mais que mil palavras?</p>
+
+            <p class="curioso">Ficou curios@?</p>  
+        </div>
+            <a href= "/segunda">veja a próxima:)</a> 
+            <form method="post" th:action="@{/logout}">
+                <button type="submit" value="Sair">
+                    Sair
+                </button>
+            </form>
+       
+        <div style=text-align:center>
+            <img id="felpinho" style="text-align: center;" src="felpinho.jpeg"/>
+        </div>
+    </div>
+</body>
+
+</html>

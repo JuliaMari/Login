@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org"></html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel= "stylesheet" href= "style2.css">
+    <title>l</title>    
+</head>
+    <body>
+        <div class="row" style=text-align:center>
+            <h1>Quem sou eu?</h1>
+        </div>  
+            <div class="row" style=text-align:center>
+                <img id="eu" src="loca.jpeg" width="435" height="500"> 
+            </div>
+                <div class="row">
+                    <P>Seria eu Júlia Cesar contemporânea?</p>
+                    <P>Brincadeiras a parte... Gosto de tirar fotos aletórias de vez em quando. A fotografia é inclusive um dos meus hobbies. Além disso gosto muito de pintar e também toco um pouco de violino.</P>
+                    <p>Também tenho uma irmã mais velha que já está na faculdade, ela é uma grande inspiração para mim. Se não fosse ela provavelmente não seria o que sou hoje.</p>
+                </div>
+                <div class="col" style="text-align: center;">
+                    <img id="brasília" src="brasilia.jpeg" width="325" height="425"/> <img id= "brasília2" src="brasilia (2).jpeg" width="325" height="425"/>
+                </div>
+                <p>Duas fotos que tirei de Brasília pois amo minha cidade.</p>
+
+       <a href="/terceira">O que vem a seguir? Você ainda não sabe? Clica aqui então!</a>
+       <form method="post" th:action="@{/logout}">
+        <button type="submit" value="Sair">
+            Sair
+        </button>
+    </form>
+    </body>
+</html>

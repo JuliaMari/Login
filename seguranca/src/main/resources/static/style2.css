@@ -1,0 +1,23 @@
+p {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(255, 6, 6, 0.733);
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+img{
+    border: 5px;
+    border-color: rgba(0, 0, 0, 0.692);
+    border-style: solid;
+}
+
+body{
+    background-color: rgba(63, 60, 60, 0.514);
+}
